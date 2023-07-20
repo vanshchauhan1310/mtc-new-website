@@ -45,8 +45,9 @@ body {
 
 .navbox{
   height: 200px;
-  width: 100%;
+  width: 2080px;
   background-color: #000000;
+  margin-left: -80px;
 }
 .navbar {
   position: absolute;
@@ -651,6 +652,8 @@ button:hover::before, button:hover::after, button:focus::before, button:focus::a
 
 html,
 body {
+  width: 2000px;
+  
 
 }
 
@@ -740,6 +743,7 @@ body {
 	width: 100vw;
 	height: 80pt;
 	top: 0;
+  margin-left: 50px;
 	bottom: 0;
 	
 	/* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
@@ -762,9 +766,9 @@ body {
 }
 
 .abtmtc{
-  color: white;
-  margin-left: 800px;
-  margin-top: -80px;
+  color: rgb(0, 0, 0);
+  margin-left: 850px;
+  margin-top: 100px;
   position: relative;
   font-size: 25px;
 
@@ -773,8 +777,8 @@ body {
 
 
 .mtcc{
-  color: white;
-  margin-left: 800px;
+  color: rgb(0, 0, 0);
+  margin-left: 850px;
 
   margin-top: 100px;
   position: relative;
